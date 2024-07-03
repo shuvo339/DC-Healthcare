@@ -1,10 +1,10 @@
-import CommonButton from "../../assets/CommonButton/CommonButton";
+import CommonButton from "../../assets/components/CommonButton/CommonButton";
 import Subheading from "../../assets/components/Subheading/Subheading";
 import image from '../../assets/images/Rectangle 24.png'
 
 const Mission = () => {
   return (
-    <div className="mt-[120px] flex flex-col md:flex-row gap-3 md:gap-10">
+    <div className="mt-[60px] md:mt-[120px] flex flex-col md:flex-row gap-3 md:gap-10">
       <div className="w-full md:w-1/2">
         <Subheading text="Who we are"></Subheading>
         <h1 className="text-4xl font-semibold text-[#020043]">We Help To Get <br /> Soultions</h1>
