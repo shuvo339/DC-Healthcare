@@ -12,7 +12,7 @@ const Promotion = () => {
     >
       <div className="relative bg-gradient-to-r from-[#0c0b31] to-[#6f6c97] min-h-[475px] pl-12 opacity-80 rounded-[32px] flex items-center">
         <div>
-          <h2 className="text-white text-[40px] font-semibold pb-6">Get Your <br /> First Appointment <br />at 50% Off!</h2>
+          <h2 className="text-white text-[30px] md:text-[40px] font-semibold pb-6">Get Your <br /> First Appointment <br />at 50% Off!</h2>
            <div className="flex gap-6">
            <CommonButton buttonText="Appoinment"></CommonButton>
            <button className="btn btn-outline text-white border-white  rounded-xl">Learn more <MdOutlineArrowOutward /></button>
